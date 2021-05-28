@@ -43,9 +43,9 @@ CNN的主要性质是：
 
 局部连接；<br>
 权值共享。<br>
-
-
-TextCNN：模型结构跟CNN差别不大，只是针对输入层做了变型，将词向量作为输入。<br>
+![](https://blog.csdn.net/ritterliu/article/details/86498796?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162218063616780264090693%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=162218063616780264090693&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-14-86498796.first_rank_v2_pc_rank_v29&utm_term=cnn&spm=1018.2226.3001.4187)
+## TextCNN
+TextCNN的模型结构跟CNN差别不大，只是针对输入层做了变型，将词向量作为输入。<br>
 ![](https://img-blog.csdnimg.cn/2019070616562550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzg4MzA4,size_16,color_FFFFFF,t_70)
 
 ## CNN配置参数
