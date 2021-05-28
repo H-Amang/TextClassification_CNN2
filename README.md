@@ -13,9 +13,8 @@
 ## 预期效果
 输入为新闻的内容，输出为新闻的分类。
 
-输入新闻：![image](https://github.com/H-Amang/TextClassification_CNN2/blob/master/image/image.png)
-
-
+输入新闻：![](https://img-blog.csdnimg.cn/20210528145424562.png)<br>
+![](https://img-blog.csdnimg.cn/20210528145455338.png)
 
 输出分类：游戏     科技
 
@@ -44,40 +43,33 @@ CNN的主要性质是：
 局部连接；<br>
 权值共享。<br>
 ![](https://img-blog.csdn.net/20170430161936244?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3htc2Ni/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 ## TextCNN
 TextCNN的模型结构跟CNN差别不大，只是针对输入层做了变型，将词向量作为输入。<br>
 ![](https://img-blog.csdnimg.cn/2019070616562550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzg4MzA4,size_16,color_FFFFFF,t_70)
 
 ## CNN配置参数
-词向量维度	64	词汇表中的字符量共有5000个，因此选用64作为词向量维度<br>
-序列长度	600	根据新闻篇幅的平均值将序列长度设为600<br>
-类别数	10	新闻分类类别共有10个<br>
-卷积核数目	256	卷积核数目、卷积核尺寸以及全连接层神经元无确定标准，选多次试验效果好的<br>
-卷积核尺寸	5	<br>
-词汇表大小	5000	词汇表中的字符量共有5000个<br>
-全连接层神经元	128	<br>
-学习率	1e-3	经过多轮测试后，发现学习率设置为1e-3时收敛速度适中<br>
-每批训练大小	64	<br>
-总迭代轮次	10	<br>
-每多少轮输出一次结果	100	<br>
-每多少轮保存结果	10	<br>
 
+![](https://img-blog.csdnimg.cn/20210528150027501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MTg4ODMw,size_16,color_FFFFFF,t_70)
 
+## 模型要点
 
+![](https://img-blog.csdnimg.cn/20210528150048102.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MTg4ODMw,size_16,color_FFFFFF,t_70)
 
 ## 训练结果
 
-
+![](https://img-blog.csdnimg.cn/20210528150057292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MTg4ODMw,size_16,color_FFFFFF,t_70)
 
 ## 模型评定
 
-准确率、召回率、F1值是主流的文本分类评价指标。
+准确率、召回率、F1值是主流的文本分类评价指标。<br>
 
-图为模型在测试集上的分类实现效果。
+图为模型在测试集上的分类实现效果。<br>
 
-准确率（precision）：也叫作查准率。即真正正确的占所有预测为正的比例；
+准确率（precision）：也叫作查准率。即真正正确的占所有预测为正的比例；<br>
 
-召回率 （recall）：也叫作查全率。即真正正确的
-占所有实际为正的比例；
+召回率 （recall）：也叫作查全率。即真正正确的占所有实际为正的比例；<br>
 
-F-Measure是Precision和Recall加权调和平均。
+F-Measure是Precision和Recall加权调和平均。<br>
+
+![](https://img-blog.csdnimg.cn/20210528150104728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MTg4ODMw,size_16,color_FFFFFF,t_70)
