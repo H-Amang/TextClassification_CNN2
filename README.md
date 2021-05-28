@@ -43,7 +43,7 @@ CNN的主要性质是：
 
 局部连接；<br>
 权值共享。<br>
-![](https://blog.csdn.net/ritterliu/article/details/86498796?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162218063616780264090693%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=162218063616780264090693&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-14-86498796.first_rank_v2_pc_rank_v29&utm_term=cnn&spm=1018.2226.3001.4187)
+![](https://img-blog.csdn.net/20170430161936244?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3htc2Ni/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ## TextCNN
 TextCNN的模型结构跟CNN差别不大，只是针对输入层做了变型，将词向量作为输入。<br>
 ![](https://img-blog.csdnimg.cn/2019070616562550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3Nzg4MzA4,size_16,color_FFFFFF,t_70)
