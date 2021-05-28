@@ -12,7 +12,7 @@
 预期效果
 输入为新闻的内容，输出为新闻的分类。
 
-输入新闻：
+输入新闻：![image](https://github.com/H-Amang/TextClassification_CNN2/blob/master/image/image.png)
 
 
 
